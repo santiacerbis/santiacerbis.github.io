@@ -1,0 +1,159 @@
+html {
+    background: url(IMG/elcheto.gif) center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+} /* Estilo general a todo el archivo HTML */
+
+#inicio{
+    margin-top: 14%;
+} /* Ajusto el id Inicio para que se vea mas centrado en la pagina*/
+
+body {
+    background-color: rgba(255, 255, 255, 0.767);
+    text-align: center;
+}/* Fondo y alineacion general de la pagina*/
+
+header {
+    background-color: rgba(171, 153, 189, 0.493);
+    padding: 22px;
+    width: 100%;
+} /* Configuracion de la barra navegadora con los accesos directos a las demas paginas*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: rgba(78, 58, 99, 0.582);
+    color: #fff;
+    transition-duration: 175ms;
+} /* Con hover configuro la transicion y transformación del texto */ 
+
+hr{
+    inline-size: 50%;
+    color: black;
+}
+
+.tabla {
+    table-layout: fixed;
+    width: 100%;
+    text-decoration: none;
+}/* Configuracion de la tabla de Inicio*/
+.tabla th{
+  padding: 10px;
+  text-align: center;
+  border-radius: 90px;
+  background-color: #d1cfcf;
+  display: inline-block;
+}
+.tabla th:hover{
+background-color: rgb(171, 153, 189);
+transform: scale(1.1);
+transition-duration: 0.4s;
+}
+
+.tabla #Perfil{
+    width: 21%;
+}
+.tabla #Educación{
+    width: 28%;
+}
+.tabla #ExpPro{
+    width: 35%;
+}
+
+.tabla_edu, .tabla_exp{
+    table-layout: fixed;
+    width: 100%;
+    text-decoration: none;
+    
+}
+.tabla_edu th, .tabla_exp th{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:rgba(171, 153, 189, 0.322)
+}
+.tabla_edu td, .tabla_exp td{
+    height: 1px;
+    padding: 20px;
+}
+img{/* Configuracion de los elementos IMG */
+    width: 100%;
+    height: auto;
+}
+img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+a{/* Configuracion de los elementos a para que no esten subrayados */
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+#barra_izq{/* configuracion barra izaquierda en Perfil */
+    float: left;
+    width: 200px;
+    padding-top: 15px;
+    text-align: left;
+}
+#barra_izq ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+}
+#barra_izq ul li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12.5px;
+}
+.fotito img{ /* Configuracion del Elemento IMG en Perfil*/
+    border-radius: 20px;
+    margin-left: 10px;
+}
+#dla_foto{
+    margin-left: 55px;
+}
+
+#barra_der{/* Configuracion de la barra derecha en Perfil*/
+    float: right;
+    width: 215px;
+    margin-right: 12px;
+    margin-left: 35px;
+}
+#barra_der ul {
+    list-style-type: none;
+    padding: 65px;
+    margin-top: -50px;
+}
+#perfiles{
+    background-color: rgba(171, 153, 189, 0.322);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#presentacion{
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.exp_pre, .edu_pre{
+    text-align: justify;
+}
+.alineado{
+    margin-left: 90px;
+    margin-right: 90px;
+}  
